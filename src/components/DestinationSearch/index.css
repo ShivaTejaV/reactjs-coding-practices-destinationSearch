@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.bg {
+  background-color: #f1f5f9;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.heading {
+  color: #252627;
+  font-family: Roboto;
+  font-size: 3em;
+}
+
+.searchElementContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchBar {
+  width: 20vw;
+  height: 5vh;
+}
+
+.searchIcon {
+  height: 5vh;
+}
