@@ -16,6 +16,7 @@ class DestinationSearch extends Component {
             className="searchIcon"
           />
         </div>
+        <ul className="destinationsItemContainer"></ul>
       </div>
     )
   }

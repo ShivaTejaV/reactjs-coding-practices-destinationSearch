@@ -30,3 +30,9 @@
 .searchIcon {
   height: 5vh;
 }
+
+.destinationsItemContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
