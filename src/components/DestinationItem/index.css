@@ -3,10 +3,11 @@
 .destinationItemContainer {
   display: flex;
   flex-direction: column;
+  margin: 25px;
 }
 
 .destinationImage {
-  height: 20vh;
+  height: 30vh;
   width: 30vw;
 }
 
