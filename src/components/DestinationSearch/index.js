@@ -14,7 +14,7 @@ class DestinationSearch extends Component {
     const {destinationsList} = this.props
     const {searchInput} = this.state
     const newDestinationList = destinationsList.filter(destination =>
-      destination.name.includes(searchInput),
+      destination.name.toLowerCase().includes(searchInput),
     )
     console.log(newDestinationList)
     return (
@@ -29,7 +29,7 @@ class DestinationSearch extends Component {
           />
           <img
             src="https://assets.ccbp.in/frontend/react-js/destinations-search-icon-img.png"
-            alt="searchIcon"
+            alt="search icon"
             className="searchIcon"
           />
         </div>

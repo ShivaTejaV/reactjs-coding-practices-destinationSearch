@@ -7,7 +7,7 @@ const DestinationItem = props => {
 
   return (
     <li className="destinationItemContainer">
-      <img src={imgUrl} className="destinationImage" />
+      <img src={imgUrl} className="destinationImage" alt={name} />
       <p className="destinationName">{name}</p>
     </li>
   )
